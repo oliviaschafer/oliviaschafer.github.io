@@ -268,3 +268,17 @@ img.photos {
     float: left;    
     
 }
+
+/* mobile view */
+
+@media (max-width 540px) {
+    
+    #header h1 {
+        margin: 0px;
+    }
+    
+    #headernav {
+        margin: 45px 0px 0px 12px;
+    }
+    
+}
