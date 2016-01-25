@@ -1,5 +1,6 @@
 /* oliviaschafer.com Style Sheet */
 
+/* web */
 /* main elements */
 
 h1 {
@@ -66,7 +67,6 @@ h2 {
     margin-right: 30px;
     margin-left: 75px;
     text-align: left;
-    height: 100px;
     
     font-family: "hind";
     font-weight: 300;
@@ -256,6 +256,23 @@ img.photos {
     max-width: 500px;
 }
 
+/* made with */
+
+#madewith {
+    font-family: "hind";
+    width: 80%;
+    margin-left: 19%;
+    line-height: 20px;
+    max-width: 800px;
+    margin-top: 110px;
+    
+    font-family: "hind";
+    font-weight: 300;
+    font-size: 80%;
+    letter-spacing: 1px;
+    
+}
+
 /* icons */
 
 .icon {
@@ -269,16 +286,87 @@ img.photos {
     
 }
 
-/* mobile view */
 
-@media (max-width 540px) {
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+   
+    /* main elements */
     
     #header h1 {
         margin: 0px;
+        margin-left: 50px;
+        margin-top: 9px;
+    }
+    
+    h2 {
+        margin-left: 45px;
+        margin-top: 75px;
+        font-size: 200%;
+        letter-spacing: 0px;
     }
     
     #headernav {
-        margin: 45px 0px 0px 12px;
+        margin: 45px 0px 0px 52px;
+    }
+    
+    #footer {
+        margin-left: 50px;
+    }
+    
+    /* home */
+    #hero {
+        margin-left: 20px;
+    }
+    
+    /* about */
+    
+    .paragraph-text {
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+    
+    .about-photo {
+        
+        margin-left: 45px;
+    }
+    
+    /* projects */
+    
+    #containers {
+        margin-left: 45px;
+        margin-top: 30px;
+        
+    }
+    
+    .gallery {
+        margin-left: 45px;
+    }
+    
+    /* details */
+    
+    .details-gallery {
+        margin-left: 45px;
+    }
+    
+    .details-heading {
+        margin-left: 100px;
+        margin-top: 90px;
+
+        
+    }
+    
+    .back-arrow {
+        margin-left: 40px;
+
+    }
+    
+    /* made with */
+    
+    #madewith {
+        margin-left: 45px;
+        margin-top: 100px;
     }
     
 }
