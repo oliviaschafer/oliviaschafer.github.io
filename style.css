@@ -379,12 +379,13 @@ img.photos {
     img.photos {
     margin-bottom: 20px;
     margin-right: 10px;
+    margin-left: 10px;
     
 }
     
     
     .gallery {
-        margin-left: 10px;
+        margin-left: 0px;
     }
     
     /* details */
