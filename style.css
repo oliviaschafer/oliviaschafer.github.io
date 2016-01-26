@@ -125,7 +125,6 @@ a:active {
 /* containers */
 
 #containers {
-    display: block;
     margin-left: 19%;
     margin-top: 20px;
     min-width: 400px;
@@ -338,7 +337,50 @@ img.photos {
         margin-top: 30px;
         padding-right: 10px;
         
+        
     }
+    
+    div.container1 {
+    height: 90px;
+    width: 90px;
+    
+}
+    
+    div.container1 p {
+    padding-top: 23px;
+    text-align: center;
+    font-size: 70%;
+}
+    
+    div.container2 {
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+        
+}
+    
+    div.container2 p {
+    padding-top: 23px;
+    text-align: center;
+    font-size: 70%;
+}
+    
+      div.container3 {
+    height: 90px;
+    width: 90px;
+    margin-left: 10px;
+}
+    
+    div.container3 p {
+    padding-top: 23px;
+    text-align: center;
+    font-size: 70%;
+}
+    img.photos {
+    margin-bottom: 20px;
+    
+}
+    
     
     .gallery {
         margin-left: 10px;
